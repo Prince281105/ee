@@ -3,14 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <link rel="stylesheet" href="style.css" />
-  <title>Architecture</title>
-</head>
-<body>
-  <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style1.css" />
   <title>Architecture</title>
 </head>
 <body>
@@ -40,7 +33,6 @@
       <h1>Architecture Type's</h1>
       <h3>Famous Places</h3>
     </div>
-
     <div class="cards">
       <!-- CARD TEMPLATE -->
       <div class="card">
@@ -128,8 +120,8 @@
   </footer>
 
   <script>
-    const toggle = document.querySelector(".menu-toggle");
-    const menu = document.querySelector(".menu");
+    const toggle = document.getElementById("toggle");
+    const menu = document.getElementById("menu");
     toggle.addEventListener("click", () => {
       menu.classList.toggle("active");
     });
